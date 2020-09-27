@@ -3,6 +3,8 @@
 /public/storage
 /storage/*.key
 /vendor
+/public/front/images/movies
+/public/front/images/movie-slider
 /.idea
 /.vscode
 /nbproject
