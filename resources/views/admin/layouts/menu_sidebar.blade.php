@@ -1,0 +1,204 @@
+<style type="text/css">
+    .first-level{
+        margin-left: 20px!important;
+    }  
+</style>
+<!-- ============================================================== -->
+        <!-- Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <aside class="left-sidebar" data-sidebarbg="skin5">
+            <!-- Sidebar scroll-->
+            <div class="scroll-sidebar">
+                <!-- Sidebar navigation-->
+                <nav class="sidebar-nav">
+                    <ul id="sidebarnav" class="p-t-30">
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="{{URL::to('/dashboard')}}" aria-expanded="false">
+                                <i class="mdi mdi-view-dashboard"></i>
+                                <span class="hide-menu">Dashboard</span></a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false">
+                                <i class="fa fa-film"></i>
+                                <span class="hide-menu">Movie</span></a>
+                            </a>
+                            <ul aria-expanded="false" class="collapse first-level">
+                                <li class="sidebar-item">
+                                    <a href="{{URL::to('/add-movie')}}" class="sidebar-link">
+                                        <i class="mdi mdi-note-outline"></i><span class="hide-menu"> Add Movie </span>
+                                    </a>
+                                </li>
+
+                                <li class="sidebar-item">
+                                    <a href="{{URL::to('/movie-search')}}" class="sidebar-link">
+                                        <i class="mdi mdi-note-outline"></i><span class="hide-menu"> Movie Search </span></a>
+                                </li>
+
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link waves-effect waves-dark sidebar-link" href="{{URL::to('/manage-movie')}}" aria-expanded="false">
+                                        <i class="mdi mdi-relative-scale"></i>
+                                        <span class="hide-menu" title="Manage Movies">All Movies</span>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="{{URL::to('/manage-sequel')}}" aria-expanded="false">
+                                <i class="fas fa-columns"></i>
+                                <span class="hide-menu">Movie Sequel</span>
+                            </a>
+                        </li>
+
+
+                         <li class="sidebar-item">
+                            <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false">
+                                <i class="mdi mdi-receipt"></i><span class="hide-menu">Movie Elements </span>
+                            </a>
+                            <ul aria-expanded="false" class="collapse first-level">
+                                <li class="sidebar-item">
+                                    <a href="{{URL::to('/manage-movie-category')}}" class="sidebar-link">
+                                        <i class="mdi mdi-note-outline"></i><span class="hide-menu"> Movie Category </span>
+                                    </a>
+                                </li>
+
+                                <li class="sidebar-item">
+                                    <a href="{{URL::to('/manage-sub-category')}}" class="sidebar-link">
+                                        <i class="mdi mdi-note-outline"></i><span class="hide-menu"> Movie Sub-category </span></a>
+                                </li>
+
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link waves-effect waves-dark sidebar-link" href="{{URL::to('/manage-genre')}}" aria-expanded="false">
+                                        <i class="mdi mdi-relative-scale"></i>
+                                        <span class="hide-menu">Movie Genre</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link waves-effect waves-dark sidebar-link" href="{{URL::to('/manage-resulation')}}" aria-expanded="false">
+                                        <i class="fas fa-american-sign-language-interpreting"></i>
+                                        <span class="hide-menu">Movie Resulation</span>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </li>
+
+                        <li class="sidebar-item">
+                            <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false">
+                                <i class="fa fa-desktop"></i><span class="hide-menu">TV Series </span>
+                            </a>
+                            <ul aria-expanded="false" class="collapse first-level">
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link waves-effect waves-dark sidebar-link" href="{{URL::to('/manage-episode')}}" aria-expanded="false">
+                                        <i class="mdi mdi-note-outline"></i>
+                                        <span class="hide-menu">Tv Series Episode</span></a>
+                                </li>
+                                 <li class="sidebar-item">
+                                    <a href="{{URL::to('/manage-tvseries')}}" class="sidebar-link">
+                                        <i class="mdi mdi-note-outline"></i><span class="hide-menu"> TV Series</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a href="{{URL::to('/manage-awardshow')}}" class="sidebar-link">
+                                        <i class="mdi mdi-note-outline"></i><span class="hide-menu"> Award Show</span>
+                                    </a>
+                                </li>
+
+                                <li class="sidebar-item">
+                                    <a href="{{URL::to('/manage-tvseries-category')}}" class="sidebar-link">
+                                        <i class="mdi mdi-note-outline"></i><span class="hide-menu"> TV Series Category </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="sidebar-item">
+                            <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false">
+                                <i class="mdi mdi-move-resize-variant"></i><span class="hide-menu">Software </span>
+                            </a>
+                            <ul aria-expanded="false" class="collapse first-level">
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link waves-effect waves-dark sidebar-link" href="{{URL::to('/manage-software')}}" aria-expanded="false">
+                                        <i class="fa fa-desktop"></i>
+                                        <span class="hide-menu">Software</span></a>
+                                </li>
+
+                                <li class="sidebar-item">
+                                    <a href="{{URL::to('/manage-soft-category')}}" class="sidebar-link">
+                                        <i class="mdi mdi-note-plus"></i><span class="hide-menu"> Software Category </span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a href="{{URL::to('/manage-soft-main-category')}}" class="sidebar-link">
+                                        <i class="mdi mdi-note-plus"></i><span class="hide-menu"> Software Main Category </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="sidebar-item"> 
+                            <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false">
+                                <i class="fa fa-gamepad"></i>
+                                <span class="hide-menu">Games </span></a>
+                            <ul aria-expanded="false" class="collapse  first-level">
+                                <li class="sidebar-item">
+                                    <a href="{{URL::to('/manage-game')}}" class="sidebar-link">
+                                        <i class="mdi mdi-note-plus"></i><span class="hide-menu">Manage Games</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a href="{{URL::to('/games-category')}}" class="sidebar-link">
+                                        <i class="mdi mdi-note-plus"></i><span class="hide-menu"> Games Category </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+
+
+
+
+
+ 
+
+
+
+                        <li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-face"></i><span class="hide-menu">Icons </span></a>
+                            <ul aria-expanded="false" class="collapse  first-level">
+                                <li class="sidebar-item"><a href="icon-material.html" class="sidebar-link"><i class="mdi mdi-emoticon"></i><span class="hide-menu"> Material Icons </span></a></li>
+                                <li class="sidebar-item"><a href="icon-fontawesome.html" class="sidebar-link"><i class="mdi mdi-emoticon-cool"></i><span class="hide-menu"> Font Awesome Icons </span></a></li>
+                            </ul>
+                        </li>
+                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="pages-elements.html" aria-expanded="false"><i class="mdi mdi-pencil"></i><span class="hide-menu">Elements</span></a></li>
+                        <li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-move-resize-variant"></i><span class="hide-menu">Addons </span></a>
+                            <ul aria-expanded="false" class="collapse  first-level">
+                                <li class="sidebar-item"><a href="index2.html" class="sidebar-link"><i class="mdi mdi-view-dashboard"></i><span class="hide-menu"> Dashboard-2 </span></a></li>
+                                <li class="sidebar-item"><a href="pages-gallery.html" class="sidebar-link"><i class="mdi mdi-multiplication-box"></i><span class="hide-menu"> Gallery </span></a></li>
+                                <li class="sidebar-item"><a href="pages-calendar.html" class="sidebar-link"><i class="mdi mdi-calendar-check"></i><span class="hide-menu"> Calendar </span></a></li>
+                                <li class="sidebar-item"><a href="pages-invoice.html" class="sidebar-link"><i class="mdi mdi-bulletin-board"></i><span class="hide-menu"> Invoice </span></a></li>
+                                <li class="sidebar-item"><a href="pages-chat.html" class="sidebar-link"><i class="mdi mdi-message-outline"></i><span class="hide-menu"> Chat Option </span></a></li>
+                            </ul>
+                        </li>
+                        <li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-account-key"></i><span class="hide-menu">Authentication </span></a>
+                            <ul aria-expanded="false" class="collapse  first-level">
+                                <li class="sidebar-item"><a href="authentication-login.html" class="sidebar-link"><i class="mdi mdi-all-inclusive"></i><span class="hide-menu"> Login </span></a></li>
+                                <li class="sidebar-item"><a href="authentication-register.html" class="sidebar-link"><i class="mdi mdi-all-inclusive"></i><span class="hide-menu"> Register </span></a></li>
+                            </ul>
+                        </li>
+                        <li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-alert"></i><span class="hide-menu">Errors </span></a>
+                            <ul aria-expanded="false" class="collapse  first-level">
+                                <li class="sidebar-item"><a href="error-403.html" class="sidebar-link"><i class="mdi mdi-alert-octagon"></i><span class="hide-menu"> Error 403 </span></a></li>
+                                <li class="sidebar-item"><a href="error-404.html" class="sidebar-link"><i class="mdi mdi-alert-octagon"></i><span class="hide-menu"> Error 404 </span></a></li>
+                                <li class="sidebar-item"><a href="error-405.html" class="sidebar-link"><i class="mdi mdi-alert-octagon"></i><span class="hide-menu"> Error 405 </span></a></li>
+                                <li class="sidebar-item"><a href="error-500.html" class="sidebar-link"><i class="mdi mdi-alert-octagon"></i><span class="hide-menu"> Error 500 </span></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- End Sidebar navigation -->
+            </div>
+            <!-- End Sidebar scroll-->
+        </aside>
+        <!-- ============================================================== -->
+        <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
